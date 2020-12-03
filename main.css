@@ -1,0 +1,40 @@
+body {
+  font-size: 14px;
+  background-color: #88f;
+}
+
+.container {
+  margin: 25px auto;
+  width: 400px;
+  background: #fff;
+  padding: 30px;
+  text-align: center;
+}
+
+.btn {
+  width: 200px;
+  height: 40px;
+  margin-right: 5px;
+  margin-left: 5px;
+  line-height: 40px;
+  background: #e77;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+#timer {
+  background: #e77;
+  height: 100px;
+  line-height: 100px;
+  font-size: 50px;
+  margin-bottom: 10px;
+}
+
+.controls {
+  display: flex;
+  justify-content: space-between;
+}
+
+.inactive {
+  opacity: 0.6;
+}
